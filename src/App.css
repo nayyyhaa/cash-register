@@ -21,10 +21,25 @@ main {
   justify-content: space-evenly;
 }
 
+input {
+  padding: 0.25rem;
+  margin: 1rem auto;
+}
+
+button {
+  padding: 0.25rem 0.5rem;
+  background: rgb(255, 193, 122);
+  color: white;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  margin: 1rem auto;
+  width: 50%;
+}
+
 .box-content {
+  min-height: 30vh;
   background: linear-gradient(120deg, rgba(49, 47, 47, 0.6), rgba(119, 118, 118, 0.7));
   min-width: 50vw;
-  min-height: 50vh;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -35,6 +50,13 @@ main {
   color: white;
   box-shadow: 5px 10px 10px grey;
   word-break: break-all;
+}
+
+.cash-given-content {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-evenly;
 }
 
 table, th, td {
