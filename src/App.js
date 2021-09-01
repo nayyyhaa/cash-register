@@ -69,13 +69,9 @@ function App() {
                 </tr>
                 <tr>
                   <th>Note</th>
-                  <td>2000</td>
-                  <td>500</td>
-                  <td>100</td>
-                  <td>20</td>
-                  <td>10</td>
-                  <td>5</td>
-                  <td>1</td>
+                  {cashArray.map((arr, index) => {
+                    return <td key={index}>{arr}</td>
+                  })}
                 </tr>
               </tbody>
             </table>
