@@ -13,8 +13,13 @@
   background: linear-gradient(to right, #e8caa7, #eaafc8);
 }
 
+header {
+  text-align: center;
+}
+
 main {
   min-height: 100vh;
+  margin: 0 1rem;
   display: flex;
   align-items: center;
   flex-direction: column;
